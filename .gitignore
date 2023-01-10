@@ -102,3 +102,6 @@ dist
 
 # TernJS port file
 .tern-port
+
+index_solo.html
+script_solo.js
