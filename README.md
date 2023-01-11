@@ -4,7 +4,7 @@
 
  
 
-  <h3><b>Personal Portfolio Readme</b></h3>
+  <h3><b>Awesome Books</b></h3>
 
 </div>
 
@@ -33,9 +33,9 @@
 - [📝 License](#license)
 
 
-# 📖 Personal Portfolio <a name="about-project"></a>
+# 📖 Awesome Books <a name="about-project"></a>
 
-**Personal Portfolio** is a project that shows a that talks about me and showcases what as I can do as a developer.
+**Awesome Books** is a simple website that displays a list of books and allows you to add and remove books from that list. By building this application, we learned how to manage data using JavaScript. Thanks to that your website will be more interactive. We used a medium-fidelity wireframe to build the UI.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -46,6 +46,7 @@
   <ul>
     <li>HTML</li>
     <li>CSS</li>
+    <li> JS </li>
   </ul>
 </details>
 
@@ -53,16 +54,15 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[Headline Section]**
-- **[Projects Section]**
-- **[About Me]**
+- **[Add button]**
+- **[Remove button]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://dazehinn.github.io/personal-portfolio/)
+- currently not available
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -105,6 +105,13 @@ You can deploy this project using Github pages
 - GitHub: [@dazehinn](https://github.com/dazehinn)
 - Twitter: [@HilaryNdzi](https://twitter.com/HilaryNdzi)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/nshanji-hilary-ndzi-b3b8a1256/)
+
+
+👤 **Francis Uche**
+
+- GitHub: [@francis3400](https://github.com/francis3400)
+- Twitter: [@francisblinkz](https://twitter.com/francisblinkz)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/francis-uche-88325/)
 
 
 
