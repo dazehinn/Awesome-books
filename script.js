@@ -12,10 +12,10 @@ const listSec = document.getElementById('list-sec');
 const title = document.getElementById('title');
 const author = document.getElementById('author');
 
-// function to show list of books
+// function to display showList
 function showList() {
   let listHtml = '';
-  for (let i = 0; i < booksArray.length; i += 1) {
+  for (let i = 0; i < booksArray.length; i++) {
     listHtml += `
     <div class="book-row" id="book-${i}"></div>
     <p>${booksArray[i].name}</p>
@@ -27,3 +27,34 @@ function showList() {
   }
   listSec.innerHTML = listHtml;
 }
+
+// function to add a book
+function addBook(e) {
+  if (title.value.length > 0 && author.value.length > 0) {
+    e.preventDefault();
+    booksArray.push(new Book(title.value, author.value));
+   
+    title.value = '';
+    author.value = '';
+    showList();
+    localStorage.setItem('books', JSON.stringify(booksArray));
+  }
+}
+
+// function to remove a book
+
+function removeBook(e) {
+  if (!e.target.matches('.btn-remove')) return;
+  const { index } = e.target.dataset;
+  booksArray.splice(index, 1);
+  localStorage.setItem('books', JSON.stringify(booksArray));
+  showList();
+}
+
+// the real run
+
+btnAdd.addEventListener('click', addBook);
+
+showList();
+
+listSec.addEventListener('click', removeBook);
