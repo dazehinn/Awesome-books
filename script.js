@@ -27,7 +27,6 @@ function showList() {
   }
   listSec.innerHTML = listHtml;
 }
-
 // function to add a book
 function addBook(e) {
   if (title.value.length > 0 && author.value.length > 0) {
