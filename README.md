@@ -2,8 +2,7 @@
 
 <div align="center">
 
-  <img src="./img/microverse-logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
+ 
 
   <h3><b>Personal Portfolio Readme</b></h3>
 
