@@ -102,11 +102,16 @@ You can deploy this project using Github pages
 ## 👥 Authors <a name="authors"></a>
 
 👤 **Nshanji Hilary Ndzi**
+👤 **Francis Uche**
 
 - GitHub: [@dazehinn](https://github.com/dazehinn)
 - Twitter: [@HilaryNdzi](https://twitter.com/HilaryNdzi)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/nshanji-hilary-ndzi-b3b8a1256/)
 
+
+- GitHub: [@francis3400](https://github.com/francis3400)
+- Twitter: [@francisblinkz](https://twitter.com/francisblinkz)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/francis-uche-88325/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
