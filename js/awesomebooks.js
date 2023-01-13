@@ -22,8 +22,8 @@ export default class AwesomeBooks {
     if (title.value.length > 0 && author.value.length > 0) {
       e.preventDefault();
       booksArray.push(new Book(title.value, author.value));
-      title.value.toUpperCase() = '';
-      author.value.toUpperCase() = '';
+      title.value.toUpperCase(); = '';
+      author.value.toUpperCase(); = '';
       AwesomeBooks.showList();
       localStorage.setItem('books', JSON.stringify(booksArray));
     }
