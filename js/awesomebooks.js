@@ -1,9 +1,10 @@
 import Book from './book.js';
 
 const booksArray = JSON.parse(localStorage.getItem('books')) || [];
-const listSec = document.getElementById('list-sec');
+const listSec = document.getElementById('book-list');
 const title = document.getElementById('title');
 const author = document.getElementById('author');
+
 export default class AwesomeBooks {
   static showList() {
     let listHtml = '';
