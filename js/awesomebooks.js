@@ -1,9 +1,10 @@
 import Book from './book.js';
 
 const booksArray = JSON.parse(localStorage.getItem('books')) || [];
-const listSec = document.getElementById('list-sec');
+const listSec = document.getElementById('book-list');
 const title = document.getElementById('title');
 const author = document.getElementById('author');
+
 export default class AwesomeBooks {
   static showList() {
     let listHtml = '';
@@ -20,7 +21,7 @@ export default class AwesomeBooks {
   static addBook(e) {
     if (title.value.length > 0 && author.value.length > 0) {
       e.preventDefault();
-      booksArray.push(new Book(title.value, author.value));
+      booksArray.push(new Book(title.value.toUpperCase(), author.value.toUpperCase()));
       title.value = '';
       author.value = '';
       AwesomeBooks.showList();
