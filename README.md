@@ -56,13 +56,14 @@
 
 - **[Add button]**
 - **[Remove button]**
+- **[Contact Section]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- currently not available
+- You can see the live demo of this project [here](https://dazehinn.github.io/Awesome-books/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
